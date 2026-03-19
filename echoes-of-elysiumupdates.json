@@ -1,0 +1,11 @@
+[
+    {
+        "UpdateStageName": "Echoes of Elysium Dedicated Server Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "2915100",
+        "UpdateSourceArgs": "",
+        "ForceDownloadPlatform": "Linux",
+        "SkipOnFailure": false
+    }
+]
