@@ -1,0 +1,118 @@
+{
+    "id": "c9d4e5f6-a7b8-4321-dcba-fedcba987654",
+    "authors": ["Panundrum"],
+    "origin": "local",
+    "url": "https://github.com/Panundrum/echoes-of-elysium-dedicated-template",
+    "imagefile": "",
+    "prefix": "",
+    "repotype": "AppTemplates"
+}
+```
+
+**File 2 — `echoes-of-elysium.kvp`:**
+```
+Meta.DisplayName=Echoes of Elysium
+Meta.Description=Echoes of Elysium Dedicated Server
+Meta.OS=Linux
+Meta.AarchSupport=Unknown
+Meta.Arch=x86_64
+Meta.Author=Panundrum
+Meta.URL=https://www.echoes.games/
+Meta.DisplayImageSource=url:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2644050/header.jpg
+Meta.EndpointURIFormat=
+Meta.ConfigManifest=echoes-of-elysiumconfig.json
+Meta.MetaConfigManifest=echoes-of-elysiummetaconfig.json
+Meta.ConfigRoot=echoes-of-elysium.kvp
+Meta.MinAMPVersion=2.4.0.0
+Meta.SpecificDockerImage=cubecoders/ampbase:debian
+Meta.DockerRequired=False
+Meta.DockerBaseReadOnly=False
+Meta.ContainerPolicy=Supported
+Meta.ContainerPolicyReason=
+Meta.ExtraSetupStepsURI=
+Meta.Prerequisites=[]
+Meta.ExtraContainerPackages=[]
+Meta.ConfigReleaseState=NotSpecified
+Meta.NoCommercialUsage=False
+Meta.ConfigVersion=1
+Meta.ReleaseNotes=
+Meta.BreakingReleaseNotes=
+Meta.ImportableExtensions=[]
+Meta.AppConfigId=b7c3e1d2-f4a5-4891-bcde-123456789abc
+Meta.AppIsMultiIPAware=False
+App.DisplayName=Echoes of Elysium
+App.RootDir=./echoes-of-elysium/
+App.BaseDirectory=./echoes-of-elysium/2915100/
+App.SteamWorkshopDownloadLocation=
+App.ExecutableWin=ElysiumServer.exe
+App.ExecutableLinux=ElysiumServer
+App.WorkingDir=2915100
+App.LinuxCommandLineArgs=
+App.WindowsCommandLineArgs=
+App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
+App.UseLinuxIOREDIR=False
+App.AppSettings={}
+App.EnvironmentVariables={}
+App.CommandLineParameterFormat=-{0} {1}
+App.CommandLineParameterDelimiter= 
+App.ExitMethod=OS_CLOSE
+App.ExitTimeout=30
+App.ExitString=
+App.ExitFile=
+App.HasWriteableConsole=True
+App.HasReadableConsole=True
+App.UDPLogger=False
+App.SupportsLiveSettingsChanges=False
+App.LiveSettingChangeCommandFormat=
+App.ForceIPBinding=False
+App.SupportsIPv6=False
+App.ApplicationIPBinding=0.0.0.0
+App.Ports=@IncludeJson[echoes-of-elysiumports.json]
+App.AdminPortRef=0
+App.PrimaryApplicationPortRef=GamePort
+App.UniversalSleepApplicationUDPPortRef=0
+App.UniversalSleepSteamQueryPortRef=0
+App.MaxUsers=6
+App.UseRandomAdminPassword=False
+App.PersistRandomPassword=False
+App.RemoteAdminPassword=
+App.AdminMethod=STDIO
+App.IgnoreSTDOUTAfterRCON=False
+App.AdminLoginTransform=None
+App.LoginTransformPrefix=
+App.RCONConnectDelaySeconds=5
+App.RCONConnectRetrySeconds=5
+App.RCONHeartbeatMinutes=0
+App.RCONHeartbeatCommand=
+App.TelnetLoginFormat={0}
+App.UpdateSources=@IncludeJson[echoes-of-elysiumupdates.json]
+App.PreStartStages=[]
+App.ForceUpdate=False
+App.ForceUpdateReason=
+App.Compatibility=None
+App.SteamUpdateAnonymousLogin=True
+App.SteamForceLoginPrompt=False
+App.RapidStartup=False
+App.DumpFullChildProcessTree=False
+App.MonitorChildProcessName=
+App.SupportsUniversalSleep=False
+App.WakeupMode=Any
+App.ApplicationReadyMode=RegexMatch
+Console.FilterMatchRegex=
+Console.FilterMatchReplacement=
+Console.ThrowawayMessageRegex=
+Console.AppReadyRegex=Listening on port|Server started|Server is ready
+Console.UserJoinRegex=
+Console.UserLeaveRegex=
+Console.UserChatRegex=^$
+Console.UpdateAvailableRegex=
+Console.MetricsRegex=
+Console.SuppressLogAtStart=False
+Console.ActivateLogRegex=
+Console.UserActions={}
+Limits.SleepMode=False
+Limits.SleepOnStart=False
+Limits.SleepDelayMinutes=5
+Limits.DozeDelay=2
+Limits.AutoRetryCount=2
+Limits.SleepStartThresholdSeconds=25
