@@ -1,0 +1,30 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Echoes of Elysium:sports_esports",
+        "Subcategory": "Server:dns:1",
+        "Description": "The name shown in the server browser",
+        "Keywords": "server,name",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "ParamFieldName": "ServerName",
+        "DefaultValue": "My Echoes of Elysium Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Echoes of Elysium:sports_esports",
+        "Subcategory": "Server:dns:1",
+        "Description": "Maximum number of players allowed on the server",
+        "Keywords": "players,max,slots",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "MinValue": "1",
+        "MaxValue": "20",
+        "ParamFieldName": "MaxPlayers",
+        "DefaultValue": "6",
+        "Placeholder": "6",
+        "Suffix": "players",
+        "EnumValues": {}
+    }
+]
