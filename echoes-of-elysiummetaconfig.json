@@ -1,0 +1,7 @@
+[
+    {
+        "ConfigFile": "GameData/config.json",
+        "AutoMap": true,
+        "ConfigType": "json"
+    }
+]
